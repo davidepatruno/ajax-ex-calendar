@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header_wrapper {
+  width: 60%;
+  margin: 50px auto;
+  text-align: center;
+  background-color: red;
+}
+
+.lista_giorni {
+  list-style: none;
+  
+}
