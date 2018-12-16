@@ -13,5 +13,11 @@
 
 .lista_giorni {
   list-style: none;
-  
+}
+
+#prev, #next {
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px;
 }

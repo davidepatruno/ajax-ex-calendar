@@ -10,14 +10,16 @@
   </head>
   <body>
     <div class="header_wrapper">
-      <h2>Gennaio 2017</h2>
+      <h2></h2>
+      <button id="prev" type="button" name="button">precedente</button>
+      <button id="next" type="button" name="button">successivo</button>
       <ul class="lista_giorni">
 
       </ul>
     </div>
 
     <script id="giorno_temp" type="text/x-handlebars-template">
-      <li class="giornoDelMese">{{giorno}}</li>
+      <li class="giornoDelMese">{{giorno}} <span>{{mese}}</span></li>
     </script>
 
     <script src="main.js"></script>
